@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seylani form</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input{
+            padding: 10px;
+            margin: 10px;
+        }
+        button{
+            margin: 10px;
+        }
+        form{
+            margin: 10px;
+            padding: 10px 20px;
+            border: rgb(98, 6, 184) solid 2px;
+        }
+        h1{
+            text-decoration: underline ;
+            color: blueviolet;
+        }
+        a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div>
+        <img width="500px"heigh="500px" src="https://vectorseek.com/wp-content/uploads/2023/08/Saylani-Welfare-International-trust-Logo-Vector.svg-.png" alt="">
+    </div>
+   <h1>Student Registration Form</h1>
+    <form action="./thankyou.html" style="background-color:blueviolet ;color: white;">   
+
+          <table>
+            <tr>
+                <td>Course Applied For:</td>
+                <td><select name="" id="">
+                    <option value="Web And Mobile App Development">Web And Mobile App Development</option>
+                    <option value="Phyton">Phyton</option>
+                    <option value="Graphics Designing">Graphics Designing</option>
+                    <option value="Ai Chat Box">Ai Chat Box</option>
+                    <option value="Mobile Repairing">Mobile Repairing</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td>First Name:</td>
+                <td><input type="text" maxlength="30" placeholder="Enter First Name">(max 30 character a-z A-Z)</td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td><input type="text" maxlength="30" placeholder="Enter Last Name">(max 30 character a-z A-Z)</td>
+            </tr>
+            <tr>
+                <td>Father Name:</td>
+                <td><input type="text" name="text" placeholder="Enter Father Name"></td>
+            </tr>
+            <tr>
+                <td>Date Of Birth:</td>
+                <td><input type="date" name="Date" placeholder="select date"></td>
+            </tr>
+            <tr>
+                <td>Phone Number:</td>
+                <td><input type="number" name="number" placeholder="Enter your phone number"></td>
+            </tr>
+            <tr>
+                <td>Email ID:</td>
+                <td><input  required type="email" name="Email" placeholder="Enter Email Address"></td>
+            </tr>
+            <tr>
+                <td>Cnic:</td>
+                <td><input type="number" name="number" placeholder="Enter Cnic"></td>
+            </tr>
+            <tr>
+                <td>Father's Cnic:</td>
+                <td><input type="number" name="number" placeholder="Enter Father's Cnic"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gender" id="male"><label for="male">Male</label>
+                    <input type="radio" name="gender" id="female"><label for="female">Female</label>
+                    <input type="radio" name="gender" id="Other"><label for="Other">Other</label>
+                </td>
+            </tr>
+             
+            <tr>
+                <td>Address:</td>
+                <td><textarea name="" id="" cols="30" rows="4"></textarea></td>
+            </tr>
+            <tr>
+                <td>City:</td>
+                <td><input type="text" name="City" id="" maxlength="30" placeholder="Enter City">(max 30 character a-z A-Z)</td>              
+            </tr>
+            <tr>
+                <td>Qualification:</td>
+                <td>
+                    <select name="" id="">
+                        <option value="metric">Metric</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Bachelors">Bachelors</option>
+                        <option value="Masters">Masters</option>
+                        <option value="Phd">Phd</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Do you have laptop?</td>
+                <td>
+                    <select name="" id="">
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Picture</td>
+                <td><input type="file" name="file" placeholder="No file chosen"</td>
+            </tr>
+            <tr>
+                <td>Instructions:</td>
+                <td>
+                    <ol>
+                        <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of my knowledge. Further, I will abide by all the established and future regulations and policies of SWIT</li>
+                        <li>I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any other activity, political or ethical, but learning during my stay in the program.</li>
+                        <li>Defiance will render my admission canceled at any point in time.</li>
+                        <li>Upon completion, of the course, I will complete the required project by SWIT.</li>
+                        <li>It's mandatory for female students to wear abaya/hijab in the class</li>
+                
+                </ol>
+            </td>
+            </tr> 
+        </table>
+    
+     
+        <div>
+            <button type="submit">Submit</button>
+            <button type="button"><a href="./index.html">Reset</a></button>
+
+        </div>
+    </center>
+    </form>
+
+
+</body>
+</html>
